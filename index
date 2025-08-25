@@ -1,0 +1,304 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contra-Ataque Jurídico - Busca e Apreensão de Veículos</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* Estilos customizados e fontes */
+        body {
+            background-color: #1a1a1a;
+            color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+        }
+        .font-anton { font-family: 'Anton', sans-serif; }
+        .font-bebas { font-family: 'Bebas Neue', cursive; }
+        .text-yellow-alert { color: #FFD700; }
+        .bg-yellow-alert { background-color: #FFD700; }
+        .border-yellow-alert { border-color: #FFD700; }
+
+        /* Animação de pulso para o botão CTA */
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
+            }
+            70% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 10px rgba(255, 215, 0, 0);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
+            }
+        }
+
+        /* Fundo com textura sutil */
+        .hero-bg {
+            background-color: #1a1a1a;
+            background-image: 
+                linear-gradient(rgba(26, 26, 26, 0.95), rgba(26, 26, 26, 0.95)),
+                url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+        }
+        .blueprint-bg {
+             background-color: #1a1a1a;
+             background-image: 
+                linear-gradient(rgba(26, 26, 26, 0.97), rgba(26, 26, 26, 0.97)),
+                url('https://www.transparenttextures.com/patterns/hexellence.png');
+        }
+
+        /* Estilo para o Accordion (FAQ) */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- SEÇÃO 1: HERO SECTION -->
+    <section class="hero-bg min-h-screen flex flex-col items-center justify-center text-center p-6">
+        <div class="max-w-4xl">
+            <h1 class="font-anton text-4xl md:text-6xl lg:text-7xl uppercase tracking-wider leading-tight">
+                O Banco já decidiu tomar o seu carro. A pergunta é: o que você vai fazer a respeito?
+            </h1>
+            <h3 class="text-lg md:text-2xl mt-6 max-w-3xl mx-auto">
+                Eles têm um roteiro: juros abusivos, ligações de assédio e a ameaça do Oficial de Justiça. Nós temos a estratégia para quebrar esse roteiro. Inicie seu contra-ataque AGORA pelo WhatsApp.
+            </h3>
+            <a href="https://api.whatsapp.com/send/?phone=556699191061&text&type=phone_number&app_absent=0" target="_blank" class="inline-block bg-yellow-alert text-black font-bold font-bebas text-2xl md:text-3xl px-10 py-4 mt-10 rounded-lg shadow-lg pulse-animation transform hover:scale-105 transition-transform duration-300">
+                <i class="fa-solid fa-crosshairs mr-3"></i>
+                Iniciar Contra-Ataque Jurídico Imediato
+            </a>
+            <p class="mt-4 text-sm text-gray-400">Clique aqui. O tempo deles está acabando.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 2: EXPOSIÇÃO DA ESTRATÉGIA DO BANCO -->
+    <section class="pt-16 pb-12 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="font-anton text-3xl md:text-5xl uppercase">Isto não é uma cobrança. É uma operação psicológica.</h2>
+            <p class="mt-4 text-lg text-gray-300">
+                Você não está apenas "devendo". Você está sendo sistematicamente pressionado, desgastado e intimidado para que entregue seu bem sem questionar. É mais barato para eles.
+            </p>
+        </div>
+
+        <div class="max-w-3xl mx-auto mt-16">
+            <h3 class="font-bebas text-3xl text-yellow-alert text-center tracking-widest">O Roteiro Deles:</h3>
+            <div class="relative mt-8 px-4">
+                <!-- Linha do tempo vertical -->
+                <div class="absolute top-0 bottom-0 left-8 w-0.5 bg-yellow-alert opacity-30 md:left-1/2 md:-translate-x-1/2"></div>
+                
+                <!-- Item 1 -->
+                <div class="relative mb-12" style="min-height: 4rem;">
+                    <div class="absolute top-0 left-0 bg-yellow-alert text-black w-16 h-16 rounded-full flex items-center justify-center z-10 md:left-1/2 md:-translate-x-1/2">
+                        <i class="fa-solid fa-chart-line fa-2x"></i>
+                    </div>
+                    <div class="pl-24 md:pl-0 md:w-1/2 md:ml-auto md:pr-16 text-left md:text-right">
+                        <h4 class="font-bold text-xl uppercase text-yellow-alert">Inflar a Dívida</h4>
+                        <p class="text-gray-300 mt-2">Seu contrato está recheado de taxas ilegais e juros sobre juros. A dívida real é muito menor do que eles afirmam. Eles criaram a armadilha.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="relative mb-12" style="min-height: 4rem;">
+                    <div class="absolute top-0 left-0 bg-yellow-alert text-black w-16 h-16 rounded-full flex items-center justify-center z-10 md:left-1/2 md:-translate-x-1/2">
+                        <i class="fa-solid fa-phone-volume fa-2x"></i>
+                    </div>
+                    <div class="pl-24 md:w-1/2 md:pr-0 md:pl-16 text-left">
+                        <h4 class="font-bold text-xl uppercase text-yellow-alert">O Assédio Constante</h4>
+                        <p class="text-gray-300 mt-2">Ligações em horários impróprios, ameaças veladas, pressão sobre seus familiares. O objetivo é destruir sua paz de espírito e forçar uma decisão desesperada.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="relative mb-12" style="min-height: 4rem;">
+                    <div class="absolute top-0 left-0 bg-yellow-alert text-black w-16 h-16 rounded-full flex items-center justify-center z-10 md:left-1/2 md:-translate-x-1/2">
+                        <i class="fa-solid fa-file-invoice fa-2x"></i>
+                    </div>
+                    <div class="pl-24 md:pl-0 md:w-1/2 md:ml-auto md:pr-16 text-left md:text-right">
+                        <h4 class="font-bold text-xl uppercase text-yellow-alert">A Carta de Notificação</h4>
+                        <p class="text-gray-300 mt-2">Este é o ultimato. É o sinal de que o processo judicial já foi ou está prestes a ser iniciado. A partir deste ponto, cada hora que você passa inerte é uma vitória para o departamento jurídico deles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="max-w-3xl mx-auto text-center mt-8 text-lg text-gray-300">
+            Eles não estão negociando. Eles estão executando um plano. E o próximo passo desse plano é o Oficial de Justiça na sua porta.
+        </p>
+    </section>
+
+    <!-- SEÇÃO 3: APRESENTAÇÃO DA SOLUÇÃO -->
+    <section class="blueprint-bg py-16 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="font-anton text-3xl md:text-5xl uppercase">Não defendemos. Nós atacamos a validade da dívida.</h2>
+            <p class="mt-4 text-lg text-gray-300 max-w-3xl mx-auto">
+                Esqueça a ideia de "pedir um acordo" ou "negociar um desconto". Nossa abordagem é uma auditoria de guerra no seu contrato. Nossa missão é encontrar a arma que eles nos deram para vencê-los.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-16 text-center">
+            <!-- Card 1 -->
+            <div class="bg-gray-800 bg-opacity-50 p-8 rounded-lg border border-gray-700">
+                <div class="text-yellow-alert mb-4">
+                    <i class="fa-solid fa-file-pen fa-4x"></i>
+                </div>
+                <h3 class="font-bebas text-3xl text-yellow-alert tracking-wider">Devassa Contratual</h3>
+                <p class="mt-2 text-gray-300">
+                    Vasculhamos cada linha do seu financiamento. Não procuramos erros, procuramos ilegalidades. E nós as encontramos em mais de 90% dos casos. É com base nisso que o jogo vira.
+                </p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-gray-800 bg-opacity-50 p-8 rounded-lg border border-gray-700">
+                <div class="text-yellow-alert mb-4">
+                    <i class="fa-solid fa-shield-halved fa-4x"></i>
+                </div>
+                <h3 class="font-bebas text-3xl text-yellow-alert tracking-wider">Suspensão da Ameaça</h3>
+                <p class="mt-2 text-gray-300">
+                    Antes que eles possam agir, nós protocolamos a ação cabível. Colocamos um escudo legal entre você e o Oficial de Justiça. A partir de agora, o poder de barganha muda de lado.
+                </p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-gray-800 bg-opacity-50 p-8 rounded-lg border border-gray-700">
+                <div class="text-yellow-alert mb-4">
+                    <i class="fa-solid fa-scale-unbalanced-flip fa-4x"></i>
+                </div>
+                <h3 class="font-bebas text-3xl text-yellow-alert tracking-wider">O Banco no Banco dos Réus</h3>
+                <p class="mt-2 text-gray-300">
+                    Invertemos a lógica. Com uma Ação Revisional, não é mais você o devedor acuado. É o banco que terá que justificar em juízo cada centavo cobrado indevidamente. É ele quem passa a ter um problema.
+                </p>
+            </div>
+        </div>
+
+        <div class="text-center mt-16">
+            <a href="https://api.whatsapp.com/send/?phone=556699191061&text&type=phone_number&app_absent=0" target="_blank" class="inline-block bg-yellow-alert text-black font-bold font-bebas text-2xl md:text-3xl px-10 py-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <i class="fa-brands fa-whatsapp mr-3"></i>
+                Quero que o Banco Vire Réu
+            </a>
+            <p class="mt-3 text-sm text-gray-400">Acione a estratégia em 2 minutos.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 4: URGÊNCIA -->
+    <section class="py-16 px-6 text-center">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-yellow-alert mb-6">
+                 <i class="fa-solid fa-stopwatch fa-6x"></i>
+            </div>
+            <h2 class="font-anton text-3xl md:text-5xl uppercase">O Relógio está correndo. Contra você.</h2>
+            <p class="mt-6 text-lg text-gray-300">
+                Neste exato momento, o processo contra você está correndo em alguma mesa de um fórum. O mandado de busca e apreensão pode ser assinado a qualquer instante. Amanhã pode ser tarde demais. A passividade é a escolha mais cara que você pode fazer.
+            </p>
+            <p class="mt-4 text-lg text-gray-300 font-bold">
+                O custo de não fazer nada é a perda do seu veículo, do seu meio de transporte, da sua ferramenta de trabalho.
+            </p>
+            <p class="mt-6 text-lg text-gray-300">
+                A decisão de virar esse jogo está a um clique de distância. A análise inicial do seu contrato é a nossa prioridade e não tem custo. Não há motivo para esperar. Aja antes que eles ajam.
+            </p>
+            <a href="https://api.whatsapp.com/send/?phone=556699191061&text&type=phone_number&app_absent=0" target="_blank" class="inline-block bg-yellow-alert text-black font-bold font-bebas text-2xl md:text-3xl px-10 py-4 mt-12 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <i class="fa-brands fa-whatsapp mr-3"></i>
+                Acionar Auditoria de Guerra Agora
+            </a>
+            <p class="mt-3 text-sm text-gray-400">Clique. Envie o contrato. Vamos para cima.</p>
+        </div>
+    </section>
+    
+    <!-- SEÇÃO 5: FAQ -->
+    <section class="py-16 px-6 bg-black bg-opacity-20">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="font-anton text-3xl md:text-5xl uppercase text-center mb-12">Sem Rodeios.</h2>
+            <div class="space-y-4" id="faq-accordion">
+                <!-- Pergunta 1 -->
+                <div class="border border-gray-700 rounded-lg">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-bold text-lg focus:outline-none">
+                        <span>Vão tomar meu carro se eu não fizer nada?</span>
+                        <i class="fa-solid fa-plus transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p class="p-5 pt-0 text-gray-300">SIM. Não é uma questão de "se", mas de "quando". A inércia é a garantia da perda.</p>
+                    </div>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="border border-gray-700 rounded-lg">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-bold text-lg focus:outline-none">
+                        <span>Essa defesa custa caro?</span>
+                        <i class="fa-solid fa-plus transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p class="p-5 pt-0 text-gray-300">Custa infinitamente menos do que perder seu carro e ainda continuar com a dívida. Analisamos seu caso sem custo para provar que a ação é viável e financeiramente inteligente para você.</p>
+                    </div>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="border border-gray-700 rounded-lg">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-bold text-lg focus:outline-none">
+                        <span>Posso fazer isso sozinho?</span>
+                        <i class="fa-solid fa-plus transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p class="p-5 pt-0 text-gray-300">Você pode tentar. Mas o banco tem um exército de advogados especializados nisso. Você precisa de uma força equivalente e especializada do seu lado. Lutar sozinho é exatamente o que eles querem que você faça.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-6 bg-black">
+        <p class="text-gray-500">&copy; 2024 Habinny Gomes Advogado - Todos os direitos reservados.</p>
+        <p class="text-gray-600 text-sm mt-2">Desenvolvido para converter ameaças em vitórias.</p>
+    </footer>
+
+    <script>
+        // Lógica para o Accordion (FAQ)
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const icon = header.querySelector('i');
+
+                // Fecha todos os outros accordions
+                document.querySelectorAll('.accordion-content').forEach(item => {
+                    if (item !== content) {
+                        item.style.maxHeight = null;
+                        const otherIcon = item.previousElementSibling.querySelector('i');
+                        otherIcon.classList.remove('fa-minus', 'text-yellow-alert');
+                        otherIcon.classList.add('fa-plus');
+                        item.previousElementSibling.classList.remove('text-yellow-alert');
+                    }
+                });
+
+                // Abre ou fecha o accordion clicado
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    icon.classList.remove('fa-minus', 'text-yellow-alert');
+                    icon.classList.add('fa-plus');
+                    header.classList.remove('text-yellow-alert');
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-minus', 'text-yellow-alert');
+                    header.classList.add('text-yellow-alert');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
